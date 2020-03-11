@@ -1,0 +1,377 @@
+*{
+    margin: 0px;
+	padding: 0px;   
+	
+}
+body{
+	width: 720px;
+	height: 720px;
+}
+@font-face{
+	font-family: palacho;
+	src: url(../fonts/blocktastic.otf);
+}
+.container{
+	background: rgb(2,0,36);
+	background: linear-gradient(0deg, rgba(2,0,36,1) 37%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+}
+
+/* Pongo centrado todo el contenido del mensaje*/
+.logo-text{
+	text-align: center;
+
+}
+/*en esta parte centro el logo*/
+.logo{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+/* dimensiones y cuanto espacio tendrá el logo */
+.pala{
+	width: 400px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+/* asigno el tipo de fuente que tendrá el mensaje y le doy unas dimensiones */
+.texto{
+	font-family: palacho;
+	margin-top: 10px;
+	margin-left: 10px;
+    margin-right: 10px;
+	color: black;
+	background: rgba(255, 255, 255, 0.527);
+
+}
+/* aumento el tamaño de la fuente en el título */
+.texto h1{
+	font-size: 90px;
+}
+/* Asigno un color al texto y unas dimensiones*/
+.texto p{
+	color: #050505;
+	font-size: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	margin-top: 30px;
+	
+}
+/* en esta parte asigno el tamaño de cada cuadro de la tabla del contenido principal*/
+.cuadro{
+	width: 300px;
+	height: 300px;
+	background-color: #f0f0f0;
+}
+/* Aqui les asigno la direccion fila que serán cada cuadro */
+.row{
+	display: flex;
+	flex-direction: row;
+
+}
+/* al contenedor tabla le asigno direccion column para que estén los cuadros de forma vertical */
+.tabla{
+	display: flex;
+	flex-direction: column;
+}
+/* finalmente asigno el tamaño a la tabla y con el contenido y texto centrados*/
+.container-tabla{
+	width: 720px;
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* atributos del primer cuadro */
+#inspa{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 70px;
+}
+#insta-logo{
+	width: 90px;
+}
+/* importo un nuevo tipo de fuente para la tabla  */
+@font-face{
+	font-family: inst;
+	src: url(../fonts/russo.ttf);
+}
+/* atributos del texto del primer cuadro */
+#arroi{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 20px;
+	font-family: inst;
+	font-size: 18px;
+}
+#foll{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 10px;
+	
+}
+/* atributos del enlace */
+#foll a{
+	text-decoration: none;
+	font-family: inst;
+	font-size: 15px;
+	color: #050505;
+}
+/* atributos del segundo cuadro cuadro */
+#chams{
+	height: 300px;
+	background: url(../img/apps.48504.71195428370171952.436387e7-636f-4e23-aa3b-c9b3876aeaa4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+#chams p{
+	font-family: inst;
+	font-size: 20px;
+	text-align: center;
+	color: #f0f0f0;
+	padding-top: 250px;
+}
+/* atributos del tercer cuadro */
+#siege{
+	height: 300px;
+	background: url(../img/siege.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#siege p{
+	font-family: inst;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 260px;
+}
+/* atributos del cuarto cuadro */
+#twit{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 70px;
+}
+#twi-logo{
+	width: 90px;
+}
+#arrot{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 20px;
+	font-family: inst;
+	font-size: 18px;
+}
+#segi{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 10px;
+}
+#segi a{
+	text-decoration: none;
+	font-family: inst;
+	font-size: 15px;
+	color: #050505;
+}
+/* atributos del quinto cuadro */
+#fac{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 70px;
+}
+#face-logo{
+	width: 90px;
+}
+#facename{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 20px;
+	font-family: inst;
+	font-size: 18px;
+}
+#busq{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 10px;
+}
+#busq a{
+	text-decoration: none;
+	font-family: inst;
+	font-size: 15px;
+	color: #050505;
+}
+/* atributos del ultimo cuadro */
+.team{
+	height: 300px;
+	background: url(../img/onslaught.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.team p{
+	font-family: inst;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 260px;
+	
+}
+/* centro el contenido del ultimo mensaje */
+.vermas{
+	text-align: center;
+}
+/* uso un tipo de fuente descargado y le declaro dimensiones*/
+.msg{
+	font-family: palacho;
+	margin-top: 10px;
+	margin-left: 10px;
+    margin-right: 10px;
+	color: #ffffff;
+
+}
+/* modifico el tamaño de la fuente del titulo */
+.msg h1{
+	font-size: 80px;
+}
+/* modifico el parrafo */
+.msg p{
+	font-size: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+	
+}
+/* parte donde hago el boton de redirección */
+#botma{
+	text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #000000;
+    background-color:#0075ab;
+    border-radius: 6px;
+	font-family: inst;
+	margin-bottom: 20px;
+}
+/* hover para cuando pase el cursor sobre el botón */
+#botma:hover{
+	background-color:  #009dc3;
+	transition-duration: 0.5s;
+}
+/* dimensiones del footer */
+footer{
+	margin-top: 30px;
+	background-color: #000000;
+}
+/* pongo en fila los logos del footer */
+.logos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+/* separo algunos logos */
+#feis{
+	width: 50px;
+	padding-right: 20px;
+}
+#tuit{
+	width: 50px;
+	padding-right: 20px;
+}
+#ista{
+	width: 50px;
+}
+/* centro el texto del footer y le doy dimensiones */
+.textof{
+	
+	text-align: center;
+	font-family: inst;
+	font-size: 20px;
+	color: #ffffff;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+@media (max-width: 400px){
+	.container{
+		width: 600px;
+		margin-left: 300px;
+	}
+	.container{
+		background: rgb(2,0,36);
+		background: linear-gradient(0deg, rgba(2,0,36,1) 37%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+	}
+	.container-tabla{
+		width: 420px;
+		margin-top: 60px;
+		margin-left: 90px;
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+}
+@media (max-width: 500px){
+	.container{
+		width: 600px;
+		margin-left: 150px;
+	}
+	.container{
+		background: rgb(2,0,36);
+		background: linear-gradient(0deg, rgba(2,0,36,1) 37%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+	}
+	.container-tabla{
+		width: 420px;
+		margin-top: 60px;
+		margin-left: 90px;
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+}
+@media (max-width: 330px){
+	.container{
+		width: 600px;
+		margin-left: 200px;
+	}
+	.container{
+		background: rgb(2,0,36);
+		background: linear-gradient(0deg, rgba(2,0,36,1) 37%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+	}
+	.container-tabla{
+		width: 420px;
+		margin-top: 60px;
+		margin-left: 90px;
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+}
+@media (max-width: 390px){
+	.container{
+		width: 600px;
+		margin-left: 170px;
+	}
+	.container{
+		background: rgb(2,0,36);
+		background: linear-gradient(0deg, rgba(2,0,36,1) 37%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+	}
+	.container-tabla{
+		width: 420px;
+		margin-top: 60px;
+		margin-left: 90px;
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+}
